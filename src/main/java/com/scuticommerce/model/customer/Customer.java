@@ -12,6 +12,9 @@ public class Customer {
     private String firstName;
     private String lastName;
     private String username;
+    private String email;
+    private String phone;
+    private String guest;
     private List<Address> addresses = new ArrayList<>();
     private List<Card> cards = new ArrayList<>();
 }

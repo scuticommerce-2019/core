@@ -13,5 +13,12 @@ public class Product {
     String image;
     String description;
     String sku;
+    String price;
+    String salePrice;
+    String brand;
+    String category;
+    String color;
+    String size;
+    String code;
 
 }
