@@ -3,6 +3,9 @@ package com.scuticommerce.model.product;
 import lombok.Data;
 import org.springframework.data.annotation.Id;
 
+import java.math.BigDecimal;
+import java.util.Collection;
+
 @Data
 public class Product {
 
@@ -13,10 +16,10 @@ public class Product {
     String image;
     String description;
     String sku;
-    String price;
-    String salePrice;
+    BigDecimal price;
+    BigDecimal salePrice;
     String brand;
-    String category;
+    Collection<String> categories;
     String color;
     String size;
     String code;
